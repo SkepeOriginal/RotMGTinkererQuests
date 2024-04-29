@@ -1,0 +1,30 @@
+{
+    "scoutQuests": {
+        "groupName": "scoutQuests",
+        "image": "spd"
+    },
+    "beginnerQuests": {
+        "groupName": "beginnerQuests",
+        "image": "questChestBeginner"
+    },
+    "standardQuests": {
+        "groupName": "standardQuests",
+        "image": "questChestStandard"
+    },
+    "mightyQuests": {
+        "groupName": "mightyQuests",
+        "image": "questChestMighty"
+    },
+    "epicQuests": {
+        "groupName": "questChestEpic",
+        "image": "questChestMoonlit"
+    },
+    "craftQuests": {
+        "groupName": "craftQuests",
+        "image": "gSpd"
+    },
+    "temporaryCraftQuests": {
+        "groupName": "temporaryCraftQuests",
+        "image": "tarotFool"
+    }
+}

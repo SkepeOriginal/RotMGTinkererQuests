@@ -1,0 +1,973 @@
+{
+    "scoutThePit": {
+        "description": "Scout the Snake Pit and report back here!",
+        "itemsNeeded": ["stheno"],
+        "rewards": ["spd", "spd"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheSewers": {
+        "description": "Scout the Toxic Sewers and report back here!",
+        "itemsNeeded": ["gulpord"],
+        "rewards": ["def", "def"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheAbyss": {
+        "description": "Scout the Abyss of Demons and report back here!",
+        "itemsNeeded": ["malphas"],
+        "rewards": ["vit", "vit"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheSprites": {
+        "description": "Scout the Sprite World and report back here!",
+        "itemsNeeded": ["limon"],
+        "rewards": ["dex", "dex"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheLair": {
+        "description": "Scout the Undead Lair and report back here!",
+        "itemsNeeded": ["septavius"],
+        "rewards": ["wis", "wis"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheTheatre": {
+        "description": "Scout the Puppet Master’s Theatre and report back here!",
+        "itemsNeeded": ["puppetMaster"],
+        "rewards": ["atk", "atk"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheWoods": {
+        "description": "Scout the Magic Woods and report back here!",
+        "itemsNeeded": ["fountainSpirit"],
+        "rewards": ["spd", "dex"],
+        "questGroup": "scoutQuests"
+    },
+    "scoutTheLibrary": {
+        "description": "Scout the Cursed Library and report back here!",
+        "itemsNeeded": ["archivist"],
+        "rewards": ["vit", "wis"],
+        "questGroup": "scoutQuests"
+    },
+    "thePirateKing": {
+        "description": "Defeat Dreadstump the Pirate King in the Pirate Cave.",
+        "itemsNeeded": [
+            "dreadstump",
+            "dreadstump",
+            "dreadstump",
+            "dreadstump"
+        ],
+        "rewards": ["questChestBeginner"],
+        "questGroup": "beginnerQuests"
+    },
+    "theMama": {
+        "description": "Defeat Mama Megamoth in the Forest Maze.",
+        "itemsNeeded": [
+            "mamaMegamoth",
+            "mamaMegamoth",
+            "mamaMegamoth",
+            "mamaMegamoth"
+        ],
+        "rewards": ["questChestBeginner"],
+        "questGroup": "beginnerQuests"
+    },
+    "theSpiderQueen": {
+        "description": "Defeat Arachna the Spider Queen in the Spider Den.",
+        "itemsNeeded": [
+            "arachna",
+            "arachna",
+            "arachna",
+            "arachna"
+        ],
+        "rewards": ["questChestBeginner"],
+        "questGroup": "beginnerQuests"
+    },
+    "theMaskedGod": {
+        "description": "Defeat Mixcoatl the Masked God in the Forbidden Jungle.",
+        "itemsNeeded": [
+            "mixcoatl",
+            "mixcoatl",
+            "mixcoatl",
+            "mixcoatl"
+        ],
+        "rewards": ["questChestBeginner"],
+        "questGroup": "beginnerQuests"
+    },
+    "theQueenBee": {
+        "description": "Defeat the Queen Bee in the Hive.",
+        "itemsNeeded": [
+            "beeQueen",
+            "beeQueen",
+            "beeQueen",
+            "beeQueen"
+        ],
+        "rewards": ["questChestBeginner"],
+        "questGroup": "beginnerQuests"
+    },
+    "runTheTable": {
+        "description": "Get rid of all these lowly monsters and I’ll get some good gear for you.",
+        "itemsNeeded": [
+            "dreadstump",
+            "mamaMegamoth",
+            "arachna",
+            "mixcoatl",
+            "beeQueen"
+        ],
+        "rewards": ["questChestBeginner", "treasureMap"],
+        "questGroup": "beginnerQuests"
+    },
+    "theSnakeQueen": {
+        "description": "Defeat Stheno in the Snake Pit.",
+        "itemsNeeded": [
+            "stheno",
+            "stheno",
+            "stheno",
+            "stheno",
+            "stheno",
+            "stheno",
+            "stheno",
+            "stheno"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theSpriteGoddess": {
+        "description": "Defeat Limon in the Sprite World.",
+        "itemsNeeded": [
+            "limon",
+            "limon",
+            "limon",
+            "limon",
+            "limon",
+            "limon",
+            "limon",
+            "limon"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theTitan": {
+        "description": "Defeat the Sandstone Titan in the Ancient Ruins.",
+        "itemsNeeded": [
+            "sandstoneTitan",
+            "sandstoneTitan",
+            "sandstoneTitan",
+            "sandstoneTitan",
+            "sandstoneTitan",
+            "sandstoneTitan"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theGhostGod": {
+        "description": "Defeat Septavius in the Undead Lair.",
+        "itemsNeeded": [
+            "septavius",
+            "septavius",
+            "septavius",
+            "septavius",
+            "septavius",
+            "septavius",
+            "septavius",
+            "septavius"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theArchdemon": {
+        "description": "Defeat Malphas in the Abyss of Demons.",
+        "itemsNeeded": [
+            "malphas",
+            "malphas",
+            "malphas",
+            "malphas",
+            "malphas",
+            "malphas",
+            "malphas",
+            "malphas"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theSlimeGod": {
+        "description": "Defeat Gulpord in the Toxic Sewers.",
+        "itemsNeeded": [
+            "gulpord",
+            "gulpord",
+            "gulpord",
+            "gulpord",
+            "gulpord",
+            "gulpord"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "thePuppetMaster": {
+        "description": "Defeat The Puppet Master in the Theatre.",
+        "itemsNeeded": [
+            "puppetMaster",
+            "puppetMaster",
+            "puppetMaster",
+            "puppetMaster",
+            "puppetMaster",
+            "puppetMaster"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theFountainSpirit": {
+        "description": "Defeat the Fountain Spirit in the Magic Woods.",
+        "itemsNeeded": [
+            "fountainSpirit",
+            "fountainSpirit",
+            "fountainSpirit",
+            "fountainSpirit",
+            "fountainSpirit"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theArchivist": {
+        "description": "Defeat Avalon in the Cursed Library!",
+        "itemsNeeded": [
+            "archivist",
+            "archivist",
+            "archivist",
+            "archivist",
+            "archivist"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theApparition": {
+        "description": "Defeat the Ghost of Skuld in the Haunted Cemetery.",
+        "itemsNeeded": [
+            "skuld",
+            "skuld",
+            "skuld"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theVampireLord": {
+        "description": "Defeat Lord Ruthven in the Manor of the Immortals.",
+        "itemsNeeded": [
+            "ruthven",
+            "ruthven",
+            "ruthven",
+            "ruthven"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theMadScientist": {
+        "description": "Defeat Dr. Terrible in the Mad Lab.",
+        "itemsNeeded": [
+            "drTerrible",
+            "drTerrible",
+            "drTerrible",
+            "drTerrible"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "toTheMountains": {
+        "description": "Head to the mountains to take down Oryx’s generals!",
+        "itemsNeeded": [
+            "septavius",
+            "limon",
+            "gulpord",
+            "malphas",
+            "drTerrible",
+            "puppetMaster",
+            "skuld"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "smiteTheUndead": {
+        "description": "Put these ones back in their graves, would ya?",
+        "itemsNeeded": [
+            "septavius",
+            "septavius",
+            "skuld",
+            "skuld",
+            "ruthven",
+            "ruthven"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "asAboveSoBelow": {
+        "description": "Take to the skies and sink to the depths for this quest!",
+        "itemsNeeded": [
+            "limon",
+            "limon",
+            "limon",
+            "gulpord",
+            "gulpord",
+            "gulpord"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "blessingsAndCurses": {
+        "description": "Life is all about balance, wouldn’t you agree?",
+        "itemsNeeded": [
+            "fountainSpirit",
+            "fountainSpirit",
+            "fountainSpirit",
+            "archivist",
+            "archivist",
+            "archivist"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "demonHunter": {
+        "description": "I don’t think Holy Water will cut it for these ones!",
+        "itemsNeeded": [
+            "malphas",
+            "malphas",
+            "malphas",
+            "daichi",
+            "daichi"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "thatsTheSpirit": {
+        "description": "All sorts of ghouls lurk in the realm, some more frightening than others!",
+        "itemsNeeded": [
+            "limon",
+            "septavius",
+            "fountainSpirit",
+            "skuld"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "rainbowRoad": {
+        "description": "Bring me some marks while you search for stat potions!",
+        "itemsNeeded": [
+            "septavius",
+            "limon",
+            "gulpord",
+            "malphas"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "theCostOfWisdom": {
+        "description": "I was never the most book smart, but there’s still time for you!",
+        "itemsNeeded": [
+            "drTerrible",
+            "drTerrible",
+            "archivist",
+            "archivist"
+        ],
+        "rewards": ["questChestStandard"],
+        "questGroup": "standardQuests"
+    },
+    "dimensionalFoes": {
+        "description": "Slay Limon the Sprite Goddess and the Tesseract Goddess.",
+        "itemsNeeded": [
+            "limon",
+            "limon",
+            "limon",
+            "limon",
+            "tesseractGoddess",
+            "tesseractGoddess"
+        ],
+        "rewards": ["questChestStandard", "cubicJelly"],
+        "questGroup": "standardQuests"
+    },
+    "theEffigy": {
+        "description": "Defeat the Golden Oryx Effigy in the Cave of a Thousand Treasures.",
+        "itemsNeeded": [
+            "effigy"
+        ],
+        "rewards": ["questChestMighty", "lootDropPotion", "lootTierPotion"],
+        "questGroup": "mightyQuests"
+    },
+    "arborealAdventurer": {
+        "description": "Eradicate the Heart of the Wetlands, the Fountain Spirit and the Murderous Megamoth!",
+        "itemsNeeded": [
+            "wetlands",
+            "wetlands",
+            "fountainSpirit",
+            "megamoth"
+        ],
+        "rewards": ["questChestMighty", "speedSprout"],
+        "questGroup": "mightyQuests"
+    },
+    "theNewKing": {
+        "description": "Defeat Jon Bilgewater in the Deadwater Docks.",
+        "itemsNeeded": [
+            "bilgewater",
+            "bilgewater",
+            "bilgewater",
+            "bilgewater"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theMegamoth": {
+        "description": "Defeat the Murderous Megamoth in the Woodland Labyrinth.",
+        "itemsNeeded": [
+            "megamoth",
+            "megamoth",
+            "megamoth",
+            "megamoth"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theProdigalSon": {
+        "description": "Defeat the Son of Arachna in the Crawling Depths.",
+        "itemsNeeded": [
+            "sonOfArachna",
+            "sonOfArachna",
+            "sonOfArachna",
+            "sonOfArachna"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theCursedHeart": {
+        "description": "Defeat The Heart of the Wetlands in the Sulfurous Wetlands.",
+        "itemsNeeded": [
+            "wetlands",
+            "wetlands",
+            "wetlands",
+            "wetlands"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "pubCrawl": {
+        "description": "Defeat Bradley the Barkeep in The Tavern.",
+        "itemsNeeded": [
+            "barkeep",
+            "barkeep",
+            "barkeep",
+            "barkeep"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theMermaidGoddess": {
+        "description": "Defeat Thessal the Mermaid Goddess in the Ocean Trench.",
+        "itemsNeeded": [
+            "thessal",
+            "thessal",
+            "thessal",
+            "thessal"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theNightmare": {
+        "description": "Defeat the Nightmare Colony in the Parasite Chambers.",
+        "itemsNeeded": [
+            "parasiticHorrors",
+            "parasiticHorrors",
+            "parasiticHorrors",
+            "parasiticHorrors"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theGhostPirate": {
+        "description": "Defeat Davy Jones on his Ghost Ship.",
+        "itemsNeeded": [
+            "davyJones",
+            "davyJones",
+            "davyJones",
+            "davyJones"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theElementalWyvern": {
+        "description": "Defeat the Ivory Wyvern in the Lair of Draconis.",
+        "itemsNeeded": [
+            "wyvern",
+            "wyvern",
+            "wyvern",
+            "wyvern"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theFallen": {
+        "description": "Defeat Daichi in the Mountain Temple.",
+        "itemsNeeded": [
+            "daichi",
+            "daichi",
+            "daichi",
+            "daichi"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theUnwilling": {
+        "description": "Defeat Esben the Unwilling in the Ice Cave.",
+        "itemsNeeded": [
+            "esben",
+            "esben",
+            "esben",
+            "esben"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theAncients": {
+        "description": "Defeat Geb in the Tomb of the Ancients.",
+        "itemsNeeded": [
+            "geb",
+            "geb",
+            "geb",
+            "geb"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theGoddess": {
+        "description": "Defeat the Tesseract Goddess in The Third Dimension.",
+        "itemsNeeded": [
+            "tesseractGoddess",
+            "tesseractGoddess",
+            "tesseractGoddess",
+            "tesseractGoddess"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theMadGod": {
+        "description": "Defeat Oryx the Mad God in his chamber.",
+        "itemsNeeded": [
+            "oryx",
+            "oryx",
+            "oryx",
+            "oryx"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theDoorwarden": {
+        "description": "Defeat Janus the Doorwarden in Oryx’s Castle.",
+        "itemsNeeded": [
+            "janus",
+            "janus",
+            "janus",
+            "janus"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "doubleTrouble": {
+        "description": "Put a stop to Oryx and his Doorwarden!",
+        "itemsNeeded": [
+            "oryx",
+            "oryx",
+            "oryx",
+            "janus",
+            "janus",
+            "janus"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "epicShowdown": {
+        "description": "Slay Jon Bilgewater, the Son of Arachna, and the Murderous Megamoth to be rewarded.",
+        "itemsNeeded": [
+            "bilgewater",
+            "bilgewater",
+            "sonOfArachna",
+            "sonOfArachna",
+            "megamoth",
+            "megamoth"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "exterminate": {
+        "description": "Get rid of those overgrown insects!",
+        "itemsNeeded": [
+            "sonOfArachna",
+            "sonOfArachna",
+            "megamoth",
+            "megamoth",
+            "killerBeeQueen"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "unsettlingFoes": {
+        "description": "Defeat these creepy combatants for a prize!",
+        "itemsNeeded": [
+            "parasiticHorrors",
+            "parasiticHorrors",
+            "esben",
+            "davyJones"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "longForgotten": {
+        "description": "Many forgot about these ancient foes. Aye, but not me!",
+        "itemsNeeded": [
+            "esben",
+            "esben",
+            "geb",
+            "geb"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "tharBePirates": {
+        "description": "Avast! Clear out the pirate presence in the realm!",
+        "itemsNeeded": [
+            "bilgewater",
+            "bilgewater",
+            "davyJones",
+            "davyJones"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "lostAndFound": {
+        "description": "People say some things are best left forgotten. I heartily disagree!",
+        "itemsNeeded": [
+            "parasiticHorrors",
+            "wyvern",
+            "davyJones",
+            "geb"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "oceanMan": {
+        "description": "With how vast the realm is, you’d think Oryx wouldn’t care for the high seas.",
+        "itemsNeeded": [
+            "thessal",
+            "thessal",
+            "davyJones",
+            "bilgewater"
+        ],
+        "rewards": ["questChestMighty"],
+        "questGroup": "mightyQuests"
+    },
+    "theKillerQueen": {
+        "description": "Defeat the Killer Bee Queen in the Nest.",
+        "itemsNeeded": [
+            "killerBeeQueen",
+            "killerBeeQueen",
+            "killerBeeQueen"
+        ],
+        "rewards": ["questChestHoneyed", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "theKing": {
+        "description": "Defeat the Forgotten King in the Shatters.",
+        "itemsNeeded": [
+            "forgottenKing",
+            "forgottenKing",
+            "forgottenKing"
+        ],
+        "rewards": ["questChestRoyal", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "theColossus": {
+        "description": "Defeat the Marble Colossus in the Lost Halls.",
+        "itemsNeeded": [
+            "marbleColossus",
+            "marbleColossus",
+            "marbleColossus"
+        ],
+        "rewards": ["questChestMarble", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "theCultist": {
+        "description": "Defeat Malus in the Cultist Hideout.",
+        "itemsNeeded": [
+            "malus",
+            "malus",
+            "malus"
+        ],
+        "rewards": ["questChestCultish", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "theEnd": {
+        "description": "Defeat the Void Entity in the Void.",
+        "itemsNeeded": [
+            "voidEntity",
+            "voidEntity",
+            "voidEntity"
+        ],
+        "rewards": ["questChestVoided", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "theCrystal": {
+        "description": "Defeat the Crystal Entity in the Crystal Cavern.",
+        "itemsNeeded": [
+            "crystalEntity",
+            "crystalEntity",
+            "crystalEntity"
+        ],
+        "rewards": ["questChestCrystallized", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "havocInTheHalls": {
+        "description": "Take down Malus and the Marble Colossus for otherworldly rewards!",
+        "itemsNeeded": [
+            "marbleColossus",
+            "marbleColossus",
+            "malus",
+            "malus"
+        ],
+        "rewards": ["questChestVoided", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "kogboldianTreasure": {
+        "description": "Defeat the Factory Control Core in the Kogbold Steamworks 3 times.",
+        "itemsNeeded": [
+            "controlCore",
+            "controlCore",
+            "controlCore"
+        ],
+        "rewards": ["questChestSteampunk", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "moonlightFestival": {
+        "description": "Join in on the festivities at the Moonlight Village!",
+        "itemsNeeded": [
+            "moonlight",
+            "moonlight",
+            "moonlight"
+        ],
+        "rewards": ["questChestMoonlit", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "advancedKogboldSteamworks": {
+        "description": "Join in on the factory!",
+        "itemsNeeded": [
+            "advancedControlCore",
+            "advancedControlCore",
+            "advancedControlCore"
+        ],
+        "rewards": ["questChestSteampunk", "questChestSteampunk", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "advancedNest": {
+        "description": "Defeat the Killer Bee Queen in the Advanced Nest.",
+        "itemsNeeded": [
+            "advancedKillerBeeQueen",
+            "advancedKillerBeeQueen",
+            "advancedKillerBeeQueen",
+            "advancedKillerBeeQueen"
+        ],
+        "rewards": ["questChestHoneyed", "questChestHoneyed", "luckyClover"],
+        "questGroup": "questChestEpic"
+    },
+    "eggsForBreakfast": {
+        "description": "You’ve got to crack a few eggs to make an omelette!",
+        "itemsNeeded": [
+            "commonEggHumanoid",
+            "commonEggAvian",
+            "commonEggFarm"
+        ],
+        "rewards": ["eggOmelette"],
+        "questGroup": "craftQuests"
+    },
+    "eggsForLunch": {
+        "description": "You’ve got to crack a few eggs to make an omelette!",
+        "itemsNeeded": [
+            "commonEggFeline",
+            "commonEggCanine",
+            "commonEggAquatic"
+        ],
+        "rewards": ["eggOmelette"],
+        "questGroup": "craftQuests"
+    },
+    "eggsForDinner": {
+        "description": "You’ve got to crack a few eggs to make an omelette!",
+        "itemsNeeded": [
+            "commonEggExotic",
+            "commonEggReptile",
+            "commonEggAutomaton"
+        ],
+        "rewards": ["eggOmelette"],
+        "questGroup": "craftQuests"
+    },
+    "cleanLaundry": {
+        "description": "I can wash your dyed clothes with the right materials.",
+        "itemsNeeded": [
+            "holyWater",
+            "spd",
+            "dex",
+            "wis",
+            "vit"
+        ],
+        "rewards": ["dyeRemoverClothing", "dyeRemoverAccessory"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionAtk": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "atk",
+            "atk",
+            "atk"
+        ],
+        "rewards": ["gAtk"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionDef": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "def",
+            "def",
+            "def"
+        ],
+        "rewards": ["gDef"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionSpd": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "spd",
+            "spd",
+            "spd"
+        ],
+        "rewards": ["gSpd"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionDex": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "dex",
+            "dex",
+            "dex"
+        ],
+        "rewards": ["gDex"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionVit": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "vit",
+            "vit",
+            "vit"
+        ],
+        "rewards": ["gVit"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionWis": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "wis",
+            "wis",
+            "wis"
+        ],
+        "rewards": ["gWis"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionLife": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "life",
+            "life",
+            "life"
+        ],
+        "rewards": ["gLife"],
+        "questGroup": "craftQuests"
+    },
+    "potionFusionMana": {
+        "description": "It doesn’t take an alchemist to put a few potions in the same vial! (Repeatable)",
+        "itemsNeeded": [
+            "mana",
+            "mana",
+            "mana"
+        ],
+        "rewards": ["gMana"],
+        "questGroup": "craftQuests"
+    },
+    "fullHouse": {
+        "description": "The Alchemist and I parted ways a while back, but I’ll still take these off your hands!",
+        "itemsNeeded": [
+            "tarotDevil",
+            "tarotSun",
+            "tarotDeath",
+            "tarotTower",
+            "tarotMagician",
+            "tarotWorld",
+            "tarotChariot",
+            "tarotMoon"
+        ],
+        "rewards": ["luckyClover", "treasureMap"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "wildCard": {
+        "description": "A joker, eh? Guess it’s still worth something.",
+        "itemsNeeded": ["tarotFool"],
+        "rewards": ["statPot"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "pathOfTheAncients": {
+        "description": "Bring me those ancient treasures from the Tomb of the Ancients, and I’ll smelt them!",
+        "itemsNeeded": [
+            "goldenAnkh",
+            "eyeOfOsiris",
+            "pharaohsMask"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "secretsOfTheSeas": {
+        "description": "Bring me those ancient treasures from the Ocean Trench, and I’ll smelt them!",
+        "itemsNeeded": [
+            "goldenCockle",
+            "goldenConch",
+            "goldenHornConch"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "demonology": {
+        "description": "Bring me those ancient treasures from the Abyss of Demons, and I’ll smelt them!",
+        "itemsNeeded": [
+            "goldenFemur",
+            "goldenRibcage",
+            "goldenSkull"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "bountyOfTheBay": {
+        "description": "Bring me those ancient treasures from Davy Jones’ Locker, and I’ll smelt them!",
+        "itemsNeeded": [
+            "pearlNecklace",
+            "goldenChalice",
+            "rubyGemstone"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "mindYourManors": {
+        "description": "Bring me those ancient treasures from the Manor of the Immortals, and I’ll smelt them!",
+        "itemsNeeded": [
+            "goldenCandelabra",
+            "holyCross"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    },
+    "forScience": {
+        "description": "Bring me those ancient treasures from the Mad Lab, and I’ll smelt them!",
+        "itemsNeeded": [
+            "goldenNut",
+            "goldenBolt"
+        ],
+        "rewards": ["goldBar"],
+        "questGroup": "temporaryCraftQuests"
+    }
+}
