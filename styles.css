@@ -1,0 +1,257 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(to bottom, #191919, #222222);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+
+    border-bottom: outset;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 1);
+}
+
+header h1 {
+    padding-left: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width */
+}
+
+main {
+    padding: 20px;
+}
+
+#quest-list, #all-quest-list {
+    border: 5px solid #181818;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 25px;
+    transition: all 1s ease;
+    border: outset;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+#quest-items, #all-quest-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quest-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.quest-item:hover {
+    background-color: #e0e0e0;
+}
+
+#quest-grid {
+    display: grid;
+    grid-template-columns: repeat(minmax(300px, 1fr), auto-fit);
+    grid-gap: 20px;
+}
+
+#all-quest-grid {
+    display: grid;
+    grid-template-columns: repeat(minmax(300px, 1fr), auto-fit);
+    grid-gap: 20px;
+}
+
+.quest-container {
+    display: grid;
+    grid-template-columns: 5fr 3fr 1fr;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+
+    background-color: #252525;
+    border: #191919;
+    border-radius: 25px;
+    border-width: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    transition: all 1s ease;
+}
+
+.all-quest-container {
+    display: grid;
+    grid-template-columns: 5fr 3fr 1fr;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+
+    background-color: #252525;
+    border: #191919;
+    border-radius: 25px;
+    border-width: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    transition: all 1s ease;
+}
+
+.quest-container.all-highlighted {
+    background-color: #b56d2b;
+}
+
+.quest-container:hover {
+    background: rgba(255, 255, 255, 0.1); /* Change background to be more opaque */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items horizontally in the column */
+    justify-content: center; /* Center items vertically in the column */
+    gap: 10px; /* Add space between images */
+}
+
+.column img {
+    width: auto; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #3e3e3e;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    transition: all 0.3s ease;
+}
+
+.column img.highlighted {
+    background-color: #b56d2b;
+}
+
+.column img:hover {
+    background: rgba(255, 255, 255, 0.2); /* Change background to be more opaque */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    cursor: pointer;
+}
+
+.column > div {
+    margin-bottom: 5px;
+}
+
+.columnItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items horizontally in the column */
+    justify-content: center; /* Center items vertically in the column */
+    gap: 10px; /* Add space between images */
+}
+
+.columnItems img {
+    width: auto; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #3e3e3e;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    transition: all 0.3s ease;
+}
+
+.columnItems img.highlighted {
+    background-color: #b56d2b;
+}
+
+.columnItems img:hover {
+    background: rgba(255, 255, 255, 0.2); /* Change background to be more opaque */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    cursor: pointer;
+}
+
+.columnItems > div {
+    margin-bottom: 5px;
+}
+
+.completeBox {
+    background-color: #384112; /* Green background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Some padding around the text */
+    font-size: 16px; /* Font size of the text */
+    text-align: center; /* Centering the text */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: max-content; /* Width according to content */
+    display: block; /* Block level element */
+    margin: 20px; /* Margin around the box */
+    transition: all 1s ease;
+}
+
+.completeBox:hover {
+    background-color: #e6e6e6;
+    color: #000;
+    cursor: pointer;
+}
+
+.refreshBox {
+    background-color: #617777; /* Green background */
+    color: #fff;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Some padding around the text */
+    font-size: 16px; /* Font size of the text */
+    text-align: center; /* Centering the text */
+    font-family: Arial, sans-serif;
+    width: max-content; /* Width according to content */
+    display: block; /* Block level element */
+    margin: 20px auto;
+    transition: all 1s ease;
+}
+
+.refreshBox:hover {
+    background-color: #aeaeae;
+    color: #000;
+    cursor: pointer;
+}
+
+.quest-group-container img {
+    width: auto; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+
+    max-width: 40px;
+    max-height: 40px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: #3e3e3e;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    transition: all 0.3s ease;
+}
+
+.quest-group-container img.highlighted {
+    background-color: #b56d2b;
+}
+
+.quest-group-container img:hover {
+    background: rgba(255, 255, 255, 0.2); /* Change background to be more opaque */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    cursor: pointer;
+}
